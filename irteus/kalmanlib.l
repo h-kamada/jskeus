@@ -48,6 +48,7 @@
   (:H (&optional m) (if m (setq H m) H))
   (:Q (&optional m) (if m (setq Q m) Q))
   (:R (&optional m) (if m (setq R m) R))
+  (:P() P_k)
   (:x (&optional v) (if v (setq x_k v) x_k))
   (:predict 
    () 
